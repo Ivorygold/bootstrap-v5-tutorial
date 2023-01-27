@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "learning bootsrap v5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootsrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "G.C udemba",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "autoprefixer": "^10.4.12",
+    "bootstrap": "^5.2.2",
+    "postcss-cli": "^10.0.0"
+  }
+}
